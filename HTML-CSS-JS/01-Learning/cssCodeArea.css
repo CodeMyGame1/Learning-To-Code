@@ -1,0 +1,40 @@
+body {
+    background-color: darkgoldenrod; /*Makes the background of the website a golden color*/
+}
+
+h1 {
+    text-align: center; /*Aligns all <h1> tags to the center of the website*/
+    color: crimson;
+}
+
+p {
+    text-align: center; /*Aligns all <p> tags to the center of the website*/
+    color: cornflowerblue;
+}
+
+.imgone {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttonone {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4 {
+    text-align: center;
+    color: blue;
+}
+
+ol { 
+display:table; margin:0 auto;
+color: orange    
+}
+
+ul { 
+display:table; margin:0 auto;
+color: orange
+}

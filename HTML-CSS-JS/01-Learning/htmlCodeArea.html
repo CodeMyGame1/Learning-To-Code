@@ -1,0 +1,92 @@
+<!--For learning HTML, CSS, and JS, I will be using https://www.w3schools.com/html/, https://www.w3schools.com/css/, and 
+https://www.w3schools.com/js/ respectively, so some code may be similar to that source. (Note: Click on that link if you 
+are new to HTML (HyperText Markup Language) and want to learn more of it)-->
+<!--Whenever I am using a header without any text, I will put a comment saying, "filler", to declare that the header is 
+there to create space between two elements.-->
+<!DOCTYPE html> 
+<html lang="en-US"> <!--This is to define the language of the website to search engines and screen readers.-->       
+    <head>
+        <link rel="stylesheet" type="text/css" href="cssCodeArea.css">
+        <title>HTML/JS GitHub Page 1</title>
+    </head>
+    
+    <body>
+        <h1 title="Heading 1">This is my first HTML/CSS/JS file on GitHub.</h1>
+        <p title="Paragraph">This is just a reference file for future GitHub projects where I need to know what thing does 
+        a certain function.</p>
+        <!--Paragraph tag: <p>-->
+        <a href="https://www.youtube.com/channel/UCrfWtpPQ7Z2DX1_kyBE4xOg" title="Link (&lt;a href=&#34;&#34;&gt;)"">
+        <p style="text-align:center;">My Channel (CodeMyGame!)</p>
+        </a>
+        <!--'&lt; = <', '&gt; = >', and '&#34; = "'-->
+        <!--<a> tag, display links using <a href="<enter link here>">"enter text you want to display here"</a>-->
+        <h1></h1><!--filler-->    
+        <img src="LEONARDO DA VINCI.jpg" alt="Leonardo Da Vinci's Catapult" width="" height="300" 
+        title="Image (&lt;img src=&#34;&#34;&gt;)"class="imgone">
+        <!--<img> tag, display images using <img src="<enter image link which is downloaded on your computer>"-->
+        <h1></h1><!--filler-->
+        <input type="button" style="background-color:red; color: blue;" 
+        title="Button (&lt;input type=&#34;button&#34;/&gt;)" class="buttonone" value="My GitHub Page!" 
+        onclick="navigateToGitHub();"/>
+        <!--<input> tag, display button using <input type="button" value="<enter text that you want to display on the 
+        button>">-->
+        <!--If you would like to execute a JS function that you have already written upon the user clicking the button, 
+        do, 'onclick="<specify name of the function>();/' at the end of your <input> tag.-->
+        <h4 title="Heading 4">Types of Header Tags:</h4>
+        <ol>
+            <div title="&lt;li&gt;&lt;/li&gt;">
+            <li>&lt;h1&gt;</li>
+            <li>&lt;h1&gt;</li>
+            <li>&lt;h1&gt;</li>
+            <li>&lt;h4&gt;</li>
+            <li>&lt;h5&gt;</li>
+            <li>&lt;h6&gt;</li>
+            </div>
+        </ol>
+        <!--<ol> tag, display numberered list (The code in curly braces is the usage of <ol>, and you do not need to use 
+            curly braces when writing <ol>, I just put it there to demonstrate that only the code in the braces is code 
+            that explains how <ol> works){
+            <ol>
+                <li><enter text here that you want to be displayed on the first thing on the list></li>
+                <li><enter text here that you want to be displayed on the second thing on the list></li>
+            </ol>
+            }
+            add more <li></li> and enter text inside to display third thing, fourth thing, etc.-->
+        <h4 title="Heading 4">A snippet from w3schools.com</h4>
+        <ul> 
+            <div title="&lt;li&gt;&lt;/li&gt;">                   
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+            </div>
+        </ul>
+        <!--<ul> tag, similar in usage to <ol>, but <li> are shown as bullet points-->
+        <h4 title="Heading 4">This header is here to demonstrate the function of a line break.<br>It allows you to write lines one after the
+        other without any space.</h4>
+        <!--<br>, as mentioned above, allows you to write text one after the other (in terms of lines) if you are writing 
+        lots of it-->
+        
+    </body>
+</html>
+
+<script>
+    function navigateToGitHub() {
+    /*The line above defines the function, "navigateToGitHub()".*/
+        window.location.replace('https://github.com/GitReddyHub');;
+    /*The line above says that when the function is run (In this case, the button is clicked, triggering the function), 
+    the browser will go to the specified link (My GitHub page).*/
+    }
+    /*The line above is a closing curly bracket. Its opposite is the opening curly bracket on the line where the function 
+    name is declared, and the lines in between these two symbols is what will be run when the function is called.*/
+</script>
+
+
+
+
+
+
+
+
+
+
+
