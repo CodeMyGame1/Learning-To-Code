@@ -3,9 +3,10 @@
     <head>
         <link rel="stylesheet" type="text/css" href="cssCodeAreaTwo.css">
         <title>HTML/JS GitHub Page 2</title>
+        <!--<style></style>, can be used to define CSS for an HTML page inside the HTML page itself-->
     </head>
     <body>
-        <pre style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 100%"><!--Font family: defines font, font-size: defines font size-->
+        <pre style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 100%; color: cornflowerblue; background-color: red;"><!--Font-family: defines font, font-size: defines font size, color: defines text color, background-color: defines background color of element-->
             This 
             font
             is
@@ -16,10 +17,16 @@
             font
             family.
         </pre>
-        <p>This <abbr title="crazy">CRZ</abbr> <b>sentence</b><!--Bold text--> <i>obviously</i><!--Italic text--> has a <strong>LOT</strong><!--Important text--> of <em>different</em><!--Emphasized text--> types of <mark>formatting</mark><!--Marked (highlighted) text--> <small>elements</small><!--Small text (text smaller than the current line's font size)-->. This <q><del>paragraph</del></q><!--First one: Puts quotations around selected text--><!--Second one: Deleted text (crossed-out text)--> <address>also has</address><!--Italicizes selected text--> <blockquote>a lot of</blockquote><!--Like pre, but, in most browsers, indents selected text--> <ins>crazy</ins><!--Inserted text (underlined text)--> <sub>formatting</sub><!--Subscript text (displayed smaller and under the line)--> <sup>elements.</sup><!--Superscript text (displayed smaller and over the line)--></p>
-        <!--The &lt;pre&gt; tag's function is to preserve the formatting of the text typed when displayed
+        <!--The <pre> tag's function is to preserve the formatting of the text typed when displayed
             on the browser. For example, if I used a heading tag or paragraph tag instead of a <pre> tag,
             the text above would be displayed in one line, going to the next when the browser cannot display any more text 
             to the right without adding a horizontal scrolling mechanism-->
+        <p>This <abbr title="crazy">CRZ</abbr><!--Defines an abbreiviation--> <b>sentence</b><!--Bold text--> <i>obviously</i><!--Italic text--> has a <strong>LOT</strong><!--Important text--> of <em>different</em><!--Emphasized text--> types of <mark>formatting</mark><!--Marked (highlighted) text--> <small>elements</small><!--Small text (text smaller than the current line's font size)-->. This <q><del>paragraph</del></q><!--First one: Puts quotations around selected text--><!--Second one: Deleted text (crossed-out text)--> also has a lot of <ins>crazy</ins><!--Inserted text (underlined text)--> <sub>formatting</sub><!--Subscript text (displayed smaller and under the line)--> <sup>elements.</sup><!--Superscript text (displayed smaller and over the line)--></p>
+        <!--<blockquote cite="<website name wherin a section of text was taken from>"></blockquote> defines a section that is quoted from another source, (browsers usually indent text surrounded by these tags)-->
+        <!--<address></address> defines contact information (author/owner) of a document or an article (usually displayed in italic)-->
+        <!--<cite></cite> defines the title of a work (usually displayed in italic)-->
+        <bdo dir="rtl">This text is written from right to left</bdo><!--Bi-directional override, overrides current text direction of the text it contains, and instead uses the specified direction written in dir=""-->
+        <h1 style="border:2px solid tomato; padding: 30px; text-align: center; margin: 50px">This heading has a border.</h1><!--Hover over color to find RGB (Red, Green, Blue), HEX (Hexadecimal), and HSL (Hue, Saturation, Lightness). Additional (not found by hovering): RGBA (Red, Green, Blue, Alpha) and HSLA (Hue, Saturation, Lightness, Alpha) (Alpha defines transparency, is defined using a percent)--><!--Padding, space between text and border; margin, space between border and sides of webpage-->
+        <p>This is to demonstrate use of class</p>
     </body>
 </html>
